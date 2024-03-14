@@ -1,0 +1,32 @@
+body {
+    margin: 20px;
+    background-color: rgb(51, 83, 94);
+    background: url(OIP\ \(1\).jpg)
+    
+}
+
+fieldset {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #969dbb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h3 {
+    color: rgb(51, 57, 149);
+}
+
+input {
+    border-radius: 20px;
+}
+
+legend {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #496f83;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
