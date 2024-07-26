@@ -1,0 +1,151 @@
+body {
+    background-color: #333;
+    color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: #222;
+}
+
+.neon-text {
+    color: #f40;
+    text-shadow: 
+        0 0 5px rgba(244, 64, 0, 0.5), 
+        0 0 10px rgba(244, 64, 0, 0.5), 
+        0 0 20px rgba(244, 64, 0, 0.5), 
+        0 0 40px rgba(244, 64, 0, 0.5), 
+        0 0 80px rgba(244, 64, 0, 0.5), 
+        0 0 90px rgba(244, 64, 0, 0.5), 
+        0 0 100px rgba(244, 64, 0, 0.5), 
+        0 0 150px rgba(244, 64, 0, 0.5);
+    transition: text-shadow 0.3s ease;
+}
+
+header:hover .neon-text {
+    text-shadow: 
+        0 0 10px rgba(244, 64, 0, 0.7), 
+        0 0 20px rgba(244, 64, 0, 0.7), 
+        0 0 30px rgba(244, 64, 0, 0.7), 
+        0 0 50px rgba(244, 64, 0, 0.7), 
+        0 0 100px rgba(244, 64, 0, 0.7), 
+        0 0 120px rgba(244, 64, 0, 0.7), 
+        0 0 150px rgba(244, 64, 0, 0.7), 
+        0 0 200px rgba(244, 64, 0, 0.7);
+}
+
+.card {
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    background-color: #555;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+}
+
+.card-img {
+    width: 40%;
+    height: auto;
+    border-right: 1px solid #555;
+    border-radius: 10px 0 0 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card-img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.card-info {
+    padding: 20px;
+    width: 58%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    color: #f4f4f4;
+    margin-top: 0;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.card-title:hover {
+    color: #f90;
+}
+
+.card-text {
+    color: #ddd;
+    font-size: 1rem;
+    margin-bottom: 15px; /* Adiciona um espaço antes dos botões */
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #f40;
+}
+
+.btn-primary:hover {
+    background-color: #d33;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.btn-secondary {
+    background-color: #555;
+}
+
+.btn-secondary:hover {
+    background-color: #444;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
